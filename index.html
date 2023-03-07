@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelax | Your Packaging Solution</title>
+<!--  CSS Start  -->
+    <link rel="stylesheet" href="style.css">
+<!--  CSS End  -->
+
+<!--  Bootstrap code Start  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!--  Bootstrap code Start  -->
+
+</head>
+<body>
+    <div class="header_top wow animated" id="headerTop" style="visibility: visible; animation-name: fadeInDown;">
+		<div class="container">
+			<!-- USER MENU -->
+			<ul class="header_user">
+                <li><a href="#" id="customer_login_link">Log in |</a></li>
+                <li><a href="#" id="customer_register_link">Create an account |</a></li>
+                <li class="checkout"><a href="#">Check out |</a></li>
+                <div class="header_currency">
+                    <label for="currencies">Currencies:</label>
+                    <div id="currencies-styler" class="jq-selectbox jqselect" style="display: inline-block; position: relative; z-index:100">
+                        <select id="currencies" name="currencies" style="margin: 0px; padding: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; opacity: 0;">
+                            <option value="USD" selected="selected">BDT</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                        <div class="jq-selectbox__select" style="position: relative">
+                            <div class="jq-selectbox__select-text">BDT</div>
+                            <div class="jq-selectbox__trigger">
+                                <div class="jq-selectbox__trigger-arrow"></div>
+                                <i class="fa fa-angle-down"></i>
+                            </div>
+                        </div>
+                        <div class="jq-selectbox__dropdown" style="position: absolute; display: none;">
+                            <ul style="position: relative; list-style: none; overflow: auto; overflow-x: hidden">
+                                <li class="selected sel" style="display: block; white-space: nowrap;">BDT</li>
+                                <li class="" style="display: block; white-space: nowrap;">EUR</li>
+                                <li class="" style="display: block; white-space: nowrap;">GBP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+			</ul>
+		</div>
+	</div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logos/Pixelax Logo.png" alt="" width="250" height="60" class="d-inline-block align-text-top">
+                    <h5>Your Trusted Packaging Solution</h5>
+                  </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex justify-content-center">
+                    <h6>ORDER HOTLINE: 800-2345-6789</h6>
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+            <div class="header_cart wow animated" style="visibility: visible;">
+                <a href="#"><i class="fa fa-shopping-cart"></i><b>Shopping cart:</b><span class="cart-total-items"><span class="count">0</span></span><span>item(s)</span></a>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
