@@ -34,7 +34,6 @@ section{
 }
 .header_cart a i {
 	padding-left: 10px;
-    list-style-type: none;
 	padding-right: 5px;
 	text-align: right;
 	width: 51px;
@@ -51,5 +50,28 @@ section{
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: 900;
-	color: #1338a9;
+	color: #ed1651;
+}
+.header_cart a{
+text-decoration: none;
+}
+.header_cart a span{
+	text-decoration: none;
+	color: #000000;
+}
+.navBg{
+	background-color: #ed1651;
+}
+.navBg a{
+	color: #ffffff !important;
+}
+#mainNav{
+	margin-left: 270px;
+}
+#dropDown a{
+	color: #000000 !important;
+}
+#dropDown a:hover{
+	background-color: #ed1651 !important;
+	color: #ffffff !important;
 }
